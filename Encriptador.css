@@ -61,7 +61,7 @@
   Position:absolute;
   Border:none;
   Border-radius:10px;
-  Font-size:22px;
+  Font-size:70px;
   Padding:5%;
   Margin:auto;
 }
@@ -122,4 +122,36 @@
 .botoes{
   Margin-top:45px;
 }
+@media(min-height:900px){
+ .resultado{
+   Margin-top:0;
+   Position:absolute;
+   Top:70vh;
+   Margin-left:30px;
+   Height:300px;
+ }
+.botao-codigo{
+  Width:40%;
+  Margin-top:30vh;
+  Font-size:60px;
+  Border-radius:10px;
+  Height:150px;
 }
+#copiar{
+  Position:absolute;
+  Top:90vh;
+  Width:80%;
+  Height:100px;
+  Font-size:60px;
+  Margin-left:80px;
+  Border-radius:15px;
+}
+.entrada{
+  Width:80%;
+  Height:40vh;
+  Margin-left:5vw;
+  Font-size:60px ;
+  
+}
+}
+} 
