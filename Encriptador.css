@@ -1,0 +1,125 @@
+*{
+  Margin:0;
+  Padding:0;
+  Box-sizing:border-box;
+}
+    :root{
+     --Azulmarinho:#0A3871;
+     --Azulmarinho2: #072B61;
+     --azulescuro200:#356EA9;
+     --cinza200:#CED4DA;
+     
+    }
+.logo{
+  Text-align:center;
+ Font-size:15vw;
+ font-family:"Ubuntu",sans serif;
+ Color:#17E65B ;
+ }
+ body{
+   Background-color:#fbca85;
+   Width:100%;
+ }
+.entrada{
+  Margin:auto;
+  Height:300px;
+  Width:80%;
+  Position:absolute;
+  Top:75px;
+  Border:none;
+  Font-size:22px;
+  Padding:5%;
+  Left:43px;
+  Outline:none; 
+ 
+  Background-color:#fbca85;
+}
+.botoes{
+  Width:100%;
+  Display:flex;
+  Align-items:center;
+  Position:absolute;
+  Top:400px;
+}
+.botao-codigo{
+  Font-size:30px;
+  Border-radius:10px;
+  Border:none;
+  Padding: 10px;
+  Background-color: black;    /*#45d20b;*/
+  Color:orange;
+  Margin:auto;
+}
+
+.resultado{
+  Position:absolute;
+  Top:80vh;
+ Left:20px;
+  Margin:auto;
+  Height:90px;
+  Width:90%;
+  Position:absolute;
+  Border:none;
+  Border-radius:10px;
+  Font-size:22px;
+  Padding:5%;
+  Margin:auto;
+}
+#copiar{
+  Position:absolute;
+  Top:589px;
+  Width:300px;
+  Font-size:22px;
+  Padding:5px;
+  Left:30px;
+  Border-radius:10px;
+  Background-color:black;
+  Color:orange;
+}
+@media(min-width:500px){
+  *{
+    Text-align:center;
+  }
+ .entrada{
+   Margin-top:20px;
+ }
+ .logo{
+  Margin-bottom:10px;
+   Margin:3px;
+ }
+  Main{
+    Display:flex;
+  }
+.resultado{
+  Margin-top:70vh;
+}
+.botoes{
+  Display:flex;
+  Margin-top:10px;
+}
+#copiar{
+  
+  Margin-top:30px;
+  Margin-left:20vw;
+}
+} 
+@media(min-width:800px){
+ .entrada{
+   Margin-top:60px;
+ }
+  .resultado{
+    Margin-top:20vh;
+    
+  }
+ .logo{
+   Margin:0;
+ }
+ #copiar{
+   Margin-left:33vw;
+   Padding:10px;
+   Margin-bottom:10px;
+ }
+.botoes{
+  Margin-top:45px;
+}
+}
