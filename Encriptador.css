@@ -17,7 +17,7 @@ Body{
   Text-align:center;
   Color:var(--corElementos) ;
   font-family: 'Ubuntu', sans-serif;
-  Font-size:8vh;
+  Font-size:18vh;
 }
 .principal{
   Display:flex;
