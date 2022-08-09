@@ -14,7 +14,7 @@ Body{
   Text-align:center;
   Background-color:var(--corDeFundo);
 }
-#logo{
+.logo{
   Text-align:center;
   Color:var(--corElementos) ;
   font-family: 'Ubuntu', sans-serif;
