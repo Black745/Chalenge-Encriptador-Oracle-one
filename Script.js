@@ -13,7 +13,7 @@ function criptografa(){
      resultado.value=resultadoTexto;
 }
 function descriptografa(){
-  let textoCriptografado=resultado.value;
+  let textoCriptografado=entradaTexto.value;
   let descriptografado=textoCriptografado.replace(/enter/gi,"e").replace(/imes/gi,"i").replace(/ai/gi,"a").replace(/ober/gi,"o").replace(/ufat/gi,"u");
   resultado.value=descriptografado;
 }
