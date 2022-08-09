@@ -14,7 +14,7 @@ Body{
   Text-align:center;
   Background-color:var(--corDeFundo);
 }
-.logo{
+#logo{
   Text-align:center;
   Color:var(--corElementos) ;
   font-family: 'Ubuntu', sans-serif;
@@ -51,9 +51,11 @@ Body{
   Border:none;
 }
 .resultado{
+  Resize:none;
   Width:90vw;
   Font-size:20px ;
   Margin:0 auto;
+  outline:none;
   Border:none;
   Border-radius:10px;
   Height:30vh;
@@ -70,7 +72,7 @@ Body{
 }
 Footer
 {
-  Font-size:45px;
+  Font-size:50px;
   Padding:10px;
   Background-color:black;
   color:orange;
