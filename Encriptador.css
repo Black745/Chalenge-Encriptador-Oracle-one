@@ -2,7 +2,7 @@
   Margin:0;
   Padding:0;
   box-sizing:border-box;
-  Text-align:center;
+  /*Text-align:center;*/
 }
 :root{
   --corDeFundo:#fbca85;
@@ -11,13 +11,14 @@
 }
 Body{
   Color:green;
+  Text-align:center;
   Background-color:var(--corDeFundo);
 }
 #logo{
   Text-align:center;
   Color:var(--corElementos) ;
   font-family: 'Ubuntu', sans-serif;
-  Font-size:18vh;
+  Font-size:20vw;
 }
 .principal{
   Display:flex;
@@ -28,6 +29,7 @@ Body{
 }
 .entrada{
   Width:90vw;
+  Text-align:center;
   Height:50vh;
   Outline:none;
   Margin:0 auto;
@@ -39,8 +41,9 @@ Body{
 }
 .botao-codigo{
   Width:40vw;
+  Text-align:center;
   Font-size:5vw;
-  Margin:10px 10px 0 0;
+  Margin:10px  auto;
   Padding:15px;
   Border-radius:10px;
   Color:var(--corFonteElementos);
@@ -49,6 +52,7 @@ Body{
 }
 .resultado{
   Width:90vw;
+  Font-size:20px ;
   Margin:0 auto;
   Border:none;
   Border-radius:10px;
@@ -63,4 +67,18 @@ Body{
   Padding:10px;
   Border-radius:10px;
   Border:none;
+}
+Footer
+{
+  Padding:10px;
+  Background-color:black;
+  color:orange;
+}
+a{
+  Text-decoration:none;
+  Color:orange;
+}
+a:hover{
+  Font-size:15px;
+  Text-decoration:underline;
 }
