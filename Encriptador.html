@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Encriptador Alura</title>
-    <link rel="stylesheet" href="Encriptador.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./Encriptador.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+
   </head>
   <body>
     <header>
-      <h1 class="logo">a</h1>
+      <h1 id="logo">a</h1>
       <br>
     </header>
-    <main>
+    <main class="principal">
       <textarea class="entrada"  id="entradaTexto1" placeholder="Insira seu texto aqui." required></textarea>
       
      <div class="botoes">
       <button class="botao-codigo" id="botaocodifica">Codificar</button>
       <button class="botao-codigo" id="botaodescodifica">Decodificar</button>
+      <button class="botao-codigo botao-limpar" id="botao-limpa">Limpar</button>
     </div>
     <br>
-    <textarea class="resultado" id="saida" disabled ></textarea>
-    <button id="copiar">Copiar </button>
-   
+    <textarea class="resultado" id="saida"></textarea>
+    <button id="copiar">Copiar</button>
+    
     </main>
     <footer>
       <p>Desenvolvido por <a href="https://www.linkedin.com/in/Edielsonconceicao"> Edielson Conceição </a>para Alura + ONE</p>
-    </footer> 
+    </footer>
     <script src="./Script.js"></script>
   </body>
 </html>
