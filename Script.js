@@ -1,6 +1,7 @@
 let entradaTexto =document.getElementById("entradaTexto1");
 let codificar=document.getElementById("botaocodifica");
 let descodifica=document.getElementById("botaodescodifica");
+let botaoLimpaTexto=document.getElementById("botao-limpa");
 let  resultado=document.getElementById("saida");
 let botaoCopia=document.getElementById("copiar");
 function criptografa(){
@@ -26,6 +27,16 @@ function copiaTexto() {
   alert("texto copiado com Sucesso! ");
   
 }
+function limpaTexto(){
+   var textoLimpo=entradaTexto;
+   textoLimpo.select();
+  document.execCommand("delete");
+   var textoLimpo2=resultado;
+   textoLimpo2.select();
+   document.execCommand("delete");
+} 
+  
 codificar.onclick=criptografa;
 descodifica.onclick=descriptografa;
 botaoCopia.onclick=copiaTexto;
+botaoLimpaTexto.onclick=limpaTexto;
