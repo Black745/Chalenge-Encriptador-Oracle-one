@@ -2,6 +2,7 @@
   Margin:0;
   Padding:0;
   box-sizing:border-box;
+  /*Text-align:center;*/
 }
 :root{
   --corDeFundo:#fbca85;
@@ -13,7 +14,7 @@ Body{
   Text-align:center;
   Background-color:var(--corDeFundo);
 }
-.logo{
+#logo{
   Text-align:center;
   Color:var(--corElementos) ;
   font-family: 'Ubuntu', sans-serif;
@@ -32,7 +33,7 @@ Body{
   Height:50vh;
   Outline:none;
   Margin:0 auto;
-  Padding-top:60px;
+  Padding-top:20px;
   Border:none;
   Font-size:5vw;
   Border-radius:5px;
@@ -42,12 +43,15 @@ Body{
   Width:40vw;
   Text-align:center;
   Font-size:5vw;
-  Margin:10px  auto;
+ Margin:10px  17px;
   Padding:15px;
   Border-radius:10px;
   Color:var(--corFonteElementos);
   Background-color:var(--corElementos);
   Border:none;
+}
+.botao-limpar{
+  Width:90vw;
 }
 .resultado{
   Resize:none;
@@ -71,7 +75,7 @@ Body{
 }
 Footer
 {
-  Font-size:50px;
+  Font-size:4vw;
   Padding:10px;
   Background-color:black;
   color:orange;
